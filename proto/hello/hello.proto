@@ -17,4 +17,5 @@ message HelloResponse {
 // gRPC Unário
 service HelloService {
   rpc SayHello (HelloRequest) returns (HelloResponse);
+  rpc SayManyHello(HelloRequest) returns (stream HelloResponse);
 }
