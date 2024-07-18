@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package bank
+package bank;
 
 import "proto/google/type/date.proto";
 
