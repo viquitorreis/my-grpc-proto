@@ -26,7 +26,7 @@ message Transaction {
 message TransactionSummary {
     string account_number = 1 [json_name = "account_number"];
     double sum_amount_in = 2 [json_name = "sum_amount_in"];
-    double sum_amount_out = 2 [json_name = "sum_amount_out"];
-    double sum_total = 2 [json_name = "sum_total"];
-    google.type.Date transaction_date = 5 [json_name = "transaction_date"];
+    double sum_amount_out = 3 [json_name = "sum_amount_out"];
+    double sum_total = 4 [json_name = "sum_total"];
+    google.type.Date transaction_date = 6 [json_name = "transaction_date"];
 }
