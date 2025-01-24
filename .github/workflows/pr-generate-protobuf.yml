@@ -25,3 +25,7 @@ jobs:
         shell: bash
         run: |
           make pipeline-build
+      - name: Generate Go Gateway Source Code
+        shell: bash
+        run: |
+          make pipeline-generate-gateway
